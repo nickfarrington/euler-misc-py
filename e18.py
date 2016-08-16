@@ -12,8 +12,6 @@ def subtriangle(triangle, x, y):
     return subtri
 
 def minimax(triangle):
-    if len(triangle) == 80:
-        print(triangle[0][0])
     if len(triangle) == 1:
         return triangle[0][0]
     else:
